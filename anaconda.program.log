@@ -1,0 +1,199 @@
+21:04:22,379 INFO    : Running... ['udevadm', 'trigger', '--action=add', '--subsystem-match=net']
+21:04:22,443 INFO    : Running... ['udevadm', 'trigger', '--action=add', '--subsystem-match=block']
+21:04:22,572 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:24,498 INFO    : Running... ['udevadm', 'trigger', '--action=add', '--subsystem-match=net']
+21:04:24,555 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:32,831 INFO    : Running... ['udevadm', 'trigger', '--action=change', '--subsystem-match=block']
+21:04:32,998 INFO    : Running... ['modprobe', 'fcoe']
+21:04:33,646 INFO    : Running... ['/usr/libexec/fcoe/fcoe_edd.sh', '-i']
+21:04:33,691 INFO    : No FCoE boot disk information is found in EDD!
+21:04:33,696 INFO    : Running... ['modprobe', 'scsi_wait_scan']
+21:04:33,744 INFO    : Running... ['rmmod', 'scsi_wait_scan']
+21:04:33,780 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:33,859 INFO    : Running... ['modprobe', 'scsi_wait_scan']
+21:04:33,897 INFO    : Running... ['rmmod', 'scsi_wait_scan']
+21:04:33,925 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:34,003 INFO    : Running... ['multipath', '-d']
+21:04:34,053 INFO    : Jan 16 21:04:34 | /lib/udev/scsi_id exitted with 1
+21:04:34,055 INFO    : Jan 16 21:04:34 | /lib/udev/scsi_id exitted with 1
+21:04:34,063 INFO    : Running... ['multipath', '-ll']
+21:04:34,273 INFO    : Running... ['modprobe', 'scsi_wait_scan']
+21:04:34,336 INFO    : Running... ['rmmod', 'scsi_wait_scan']
+21:04:34,371 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:37,736 INFO    : Running... ['modprobe', 'scsi_wait_scan']
+21:04:37,774 INFO    : Running... ['rmmod', 'scsi_wait_scan']
+21:04:37,803 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:37,868 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+21:04:37,907 ERROR   : Device /dev/sda not found
+21:04:37,908 ERROR   : Command failed
+21:04:37,911 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:37,972 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sr0']
+21:04:37,999 ERROR   : Device /dev/sr0 not found
+21:04:38,001 ERROR   : Command failed
+21:04:38,004 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+21:04:47,118 INFO    : Running... ['/usr/sbin/hwclock', '--hctosys', '-u']
+16:04:49,847 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sr0']
+16:04:49,885 ERROR   : Device /dev/sr0 not found
+16:04:49,885 ERROR   : Command failed
+16:04:49,887 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:49,957 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:49,987 ERROR   : Device /dev/sda not found
+16:04:49,988 ERROR   : Command failed
+16:04:49,989 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,054 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:50,083 ERROR   : Device /dev/sda not found
+16:04:50,083 ERROR   : Command failed
+16:04:50,085 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,153 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:50,183 ERROR   : Device /dev/sda not found
+16:04:50,183 ERROR   : Command failed
+16:04:50,185 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,245 INFO    : Running... ['swapoff', '-a']
+16:04:50,294 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sr0']
+16:04:50,321 ERROR   : Device /dev/sr0 not found
+16:04:50,322 ERROR   : Command failed
+16:04:50,324 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,384 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:50,413 ERROR   : Device /dev/sda not found
+16:04:50,417 ERROR   : Command failed
+16:04:50,418 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,482 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:50,515 ERROR   : Device /dev/sda not found
+16:04:50,516 ERROR   : Command failed
+16:04:50,517 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,581 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:50,609 ERROR   : Device /dev/sda not found
+16:04:50,610 ERROR   : Command failed
+16:04:50,611 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,764 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,863 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda']
+16:04:50,891 ERROR   : Device /dev/sda not found
+16:04:50,892 ERROR   : Command failed
+16:04:50,893 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:50,951 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:51,024 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:51,121 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:51,177 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:51,273 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:51,484 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:51,711 INFO    : Running... ['mke2fs', '-t', 'ext4', '/dev/sda1']
+16:04:51,788 INFO    : Filesystem label=
+16:04:51,792 INFO    : OS type: Linux
+16:04:51,793 INFO    : Block size=1024 (log=0)
+16:04:51,793 INFO    : Fragment size=1024 (log=0)
+16:04:51,795 INFO    : Stride=0 blocks, Stripe width=0 blocks
+16:04:51,798 INFO    : 128016 inodes, 512000 blocks
+16:04:51,799 INFO    : 25600 blocks (5.00%) reserved for the super user
+16:04:51,800 INFO    : First data block=1
+16:04:51,800 INFO    : Maximum filesystem blocks=67633152
+16:04:51,803 INFO    : 63 block groups
+16:04:51,804 INFO    : 8192 blocks per group, 8192 fragments per group
+16:04:51,804 INFO    : 2032 inodes per group
+16:04:51,809 INFO    : Superblock backups stored on blocks: 
+16:04:51,811 INFO    : 	8193, 24577, 40961, 57345, 73729, 204801, 221185, 401409
+16:04:51,811 INFO    : 
+16:04:52,010 INFO    : Writing inode tables:  0/63 1/63 2/63 3/63 4/63 5/63 6/63 7/63 8/63 9/6310/6311/6312/6313/6314/6315/6316/6317/6318/6319/6320/6321/6322/6323/6324/6325/6326/6327/6328/6329/6330/6331/6332/6333/6334/6335/6336/6337/6338/6339/6340/6341/6342/6343/6344/6345/6346/6347/6348/6349/6350/6351/6352/6353/6354/6355/6356/6357/6358/6359/6360/6361/6362/63done                            
+16:04:52,134 INFO    : Creating journal (8192 blocks): done
+16:04:52,180 INFO    : Writing superblocks and filesystem accounting information: done
+16:04:52,180 INFO    : 
+16:04:52,181 INFO    : This filesystem will be automatically checked every 27 mounts or
+16:04:52,183 INFO    : 180 days, whichever comes first.  Use tune2fs -c or -i to override.
+16:04:52,191 ERROR   : mke2fs 1.41.12 (17-May-2010)
+16:04:52,200 INFO    : Running... ['tune2fs', '-c0', '-i0', '-ouser_xattr,acl', '/dev/sda1']
+16:04:52,248 INFO    : tune2fs 1.41.12 (17-May-2010)
+16:04:52,249 INFO    : Setting maximal mount count to -1
+16:04:52,249 INFO    : Setting interval between checks to 0 seconds
+16:04:52,250 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:52,336 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:52,425 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:52,659 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:52,848 INFO    : Running... ['lvm', 'pvcreate', '--config', ' devices { filter=["r|/loop3$|"] } ', '--dataalignment', '1024k', '/dev/sda2']
+16:04:53,120 INFO    :   Physical volume "/dev/sda2" successfully created
+16:04:53,146 ERROR   :   Writing physical volume data to disk "/dev/sda2"
+16:04:53,149 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:54,039 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:54,123 INFO    : Running... ['lvm', 'vgcreate', '-s', '4m', '--config', ' devices { filter=["r|/loop3$|"] } ', 'vg_livecd', '/dev/sda2']
+16:04:54,440 INFO    :   Volume group "vg_livecd" successfully created
+16:04:54,501 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:55,145 INFO    : Running... ['lvm', 'lvcreate', '-L', '17960m', '-n', 'lv_root', '--config', ' devices { filter=["r|/loop3$|"] } ', 'vg_livecd']
+16:04:55,576 INFO    :   Logical volume "lv_root" created
+16:04:55,614 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:04:56,113 INFO    : Running... ['mke2fs', '-t', 'ext4', '/dev/mapper/vg_livecd-lv_root']
+16:04:56,154 INFO    : Filesystem label=
+16:04:56,158 INFO    : OS type: Linux
+16:04:56,158 INFO    : Block size=4096 (log=2)
+16:04:56,159 INFO    : Fragment size=4096 (log=2)
+16:04:56,159 INFO    : Stride=0 blocks, Stripe width=0 blocks
+16:04:56,163 INFO    : 1150560 inodes, 4597760 blocks
+16:04:56,164 INFO    : 229888 blocks (5.00%) reserved for the super user
+16:04:56,165 INFO    : First data block=0
+16:04:56,169 INFO    : Maximum filesystem blocks=0
+16:04:56,169 INFO    : 141 block groups
+16:04:56,170 INFO    : 32768 blocks per group, 32768 fragments per group
+16:04:56,170 INFO    : 8160 inodes per group
+16:04:56,171 INFO    : Superblock backups stored on blocks: 
+16:04:56,176 INFO    : 	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+16:04:56,176 INFO    : 	4096000
+16:04:56,177 INFO    : 
+16:04:59,883 INFO    : Writing inode tables:   0/141  1/141  2/141  3/141  4/141  5/141  6/141  7/141  8/141  9/141 10/141 11/141 12/141 13/141 14/141 15/141 16/141 17/141 18/141 19/141 20/141 21/141 22/141 23/141 24/141 25/141 26/141 27/141 28/141 29/141 30/141 31/141 32/141 33/141 34/141 35/141 36/141 37/141 38/141 39/141 40/141 41/141 42/141 43/141 44/141 45/141 46/141 47/141 48/141 49/141 50/141 51/141 52/141 53/141 54/141 55/141 56/141 57/141 58/141 59/141 60/141 61/141 62/141 63/141 64/141 65/141 66/141 67/141 68/141 69/141 70/141 71/141 72/141 73/141 74/141 75/141 76/141 77/141 78/141 79/141 80/141 81/141 82/141 83/141 84/141 85/141 86/141 87/141 88/141 89/141 90/141 91/141 92/141 93/141 94/141 95/141 96/141 97/141 98/141 99/141100/141101/141102/141103/141104/141105/141106/141107/141108/141109/141110/141111/141112/141113/141114/141115/141116/141117/141118/141119/141120/141121/141122/141123/141124/141125/141126/141127/141128/141129/141130/141131/141132/141133/141134/141135/141136/141137/141138/141139/141140/141done                            
+16:05:02,004 INFO    : Creating journal (32768 blocks): done
+16:05:02,150 INFO    : Writing superblocks and filesystem accounting information: done
+16:05:02,151 INFO    : 
+16:05:02,151 INFO    : This filesystem will be automatically checked every 25 mounts or
+16:05:02,152 INFO    : 180 days, whichever comes first.  Use tune2fs -c or -i to override.
+16:05:02,232 ERROR   : mke2fs 1.41.12 (17-May-2010)
+16:05:02,245 INFO    : Running... ['tune2fs', '-c0', '-i0', '-ouser_xattr,acl', '/dev/mapper/vg_livecd-lv_root']
+16:05:02,304 INFO    : tune2fs 1.41.12 (17-May-2010)
+16:05:02,304 INFO    : Setting maximal mount count to -1
+16:05:02,304 INFO    : Setting interval between checks to 0 seconds
+16:05:02,306 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:02,389 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:02,496 INFO    : Running... ['lvm', 'lvcreate', '-L', '2016m', '-n', 'lv_swap', '--config', ' devices { filter=["r|/loop3$|"] } ', 'vg_livecd']
+16:05:03,097 INFO    :   Logical volume "lv_swap" created
+16:05:03,121 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:03,879 INFO    : Running... ['mkswap', '-f', '/dev/mapper/vg_livecd-lv_swap']
+16:05:03,912 INFO    : Setting up swapspace version 1, size = 2064380 KiB
+16:05:03,916 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:03,986 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:04,195 INFO    : Running... ['swapon', '/dev/mapper/vg_livecd-lv_swap']
+16:05:04,581 INFO    : Running... ['/usr/sbin/dmidecode', 'dmidecode', '-s', 'system-manufacturer']
+16:05:04,652 INFO    : VMware, Inc.
+16:05:04,848 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '//dev']
+16:05:04,882 ERROR   : Device //dev not found
+16:05:04,882 ERROR   : Command failed
+16:05:04,883 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:04,964 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda1']
+16:05:04,992 ERROR   : Device /dev/sda1 not found
+16:05:04,993 ERROR   : Command failed
+16:05:04,997 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:05,058 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:05,113 INFO    : Running... ['lvm', 'lvchange', '-a', 'n', '--config', ' devices { filter=["r|/loop3$|"] } ', 'vg_livecd/lv_root']
+16:05:05,568 INFO    : Running... ['swapoff', '/dev/mapper/vg_livecd-lv_swap']
+16:05:05,667 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:05:06,149 INFO    : Running... ['lvm', 'lvchange', '-a', 'n', '--config', ' devices { filter=["r|/loop3$|"] } ', 'vg_livecd/lv_swap']
+16:05:06,383 INFO    : Running... ['lvm', 'lvchange', '-a', 'y', '--config', ' devices { filter=["r|/loop3$|"] } ', 'vg_livecd/lv_root']
+16:07:07,011 INFO    : Running... ['tune2fs', '-U', 'random', '/dev/mapper/vg_livecd-lv_root']
+16:07:07,064 INFO    : tune2fs 1.41.12 (17-May-2010)
+16:07:07,085 INFO    : Running... ['udevadm', 'settle', '--timeout=300']
+16:07:08,828 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', 'vg_livecd-lv_swap']
+16:07:08,875 ERROR   : Device does not exist.
+16:07:08,876 ERROR   : Command failed
+16:07:09,121 INFO    : Running... ['/sbin/new-kernel-pkg', '--mkinitrd', '--dracut', '--depmod', '--install', '2.6.32-220.el6.i686']
+16:08:05,868 INFO    : Running... ['/usr/sbin/authconfig', '--update', '--nostart', '--enableshadow', '--passalgo=sha512', '--enablefingerprint']
+16:08:06,748 INFO    : Running... ['/usr/sbin/lokkit', '--quiet', '--nostart', '--selinux=enforcing']
+16:08:07,412 INFO    : Running... ['/sbin/grub-install', '--just-copy']
+16:08:07,505 INFO    : Running... ['/sbin/grub', '--batch', '--no-floppy', '--device-map=/boot/grub/device.map']
+16:08:07,590 INFO    : 
+16:08:07,590 INFO    : 
+16:08:07,590 INFO    :     GNU GRUB  version 0.97  (640K lower / 3072K upper memory)
+16:08:07,590 INFO    : 
+16:08:07,591 INFO    :  [ Minimal BASH-like line editing is supported.  For the first word, TAB
+16:08:07,591 INFO    :    lists possible command completions.  Anywhere else TAB lists the possible
+16:08:07,591 INFO    :    completions of a device/filename.]
+16:08:07,591 INFO    : grub> root (hd0,0)
+16:08:07,591 INFO    :  Filesystem type is ext2fs, partition type 0x83
+16:08:07,591 INFO    : grub> install --stage2=/boot/grub/stage2 /grub/stage1 d (hd0) /grub/stage2 p (hd0,0)/grub/grub.conf
+16:08:07,592 INFO    : grub> 
+16:08:07,640 INFO    : Running... ['dmsetup', 'info', '--columns', '--noheadings', '-o', 'devno', '/dev/sda2']
+16:08:07,659 ERROR   : Device /dev/sda2 not found
+16:08:07,660 ERROR   : Command failed

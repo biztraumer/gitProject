@@ -1,0 +1,46 @@
+Feb 10 13:24:20 centos1 postfix/pickup[2032]: 5BF7F8B67: uid=0 from=<root>
+Feb 10 13:24:20 centos1 postfix/cleanup[3133]: 5BF7F8B67: message-id=<20130210182420.5BF7F8B67@centos1.localdomain>
+Feb 10 13:24:20 centos1 postfix/qmgr[2033]: 5BF7F8B67: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 10 13:24:20 centos1 postfix/local[3135]: 5BF7F8B67: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.38, delays=0.11/0.24/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 10 13:24:20 centos1 postfix/qmgr[2033]: 5BF7F8B67: removed
+Feb 11 00:00:53 centos1 postfix/postfix-script[6599]: stopping the Postfix mail system
+Feb 11 00:00:54 centos1 postfix/postfix-script[6602]: waiting for the Postfix mail system to terminate
+Feb 11 00:00:54 centos1 postfix/master[2024]: terminating on signal 15
+Feb 11 14:41:22 centos1 postfix/postfix-script[2091]: starting the Postfix mail system
+Feb 11 14:41:22 centos1 postfix/master[2092]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 11 15:10:02 centos1 postfix/pickup[2099]: E6FFF7AE3: uid=0 from=<root>
+Feb 11 15:10:02 centos1 postfix/cleanup[2865]: E6FFF7AE3: message-id=<20130211201002.E6FFF7AE3@centos1.localdomain>
+Feb 11 15:10:02 centos1 postfix/qmgr[2100]: E6FFF7AE3: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 11 15:10:03 centos1 postfix/local[2867]: E6FFF7AE3: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.17, delays=0.1/0.05/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 11 15:10:03 centos1 postfix/qmgr[2100]: E6FFF7AE3: removed
+Feb 11 23:47:17 centos1 postfix/postfix-script[5419]: stopping the Postfix mail system
+Feb 11 23:47:17 centos1 postfix/master[2092]: terminating on signal 15
+Feb 13 09:37:56 centos1 postfix/postfix-script[2059]: starting the Postfix mail system
+Feb 13 09:37:56 centos1 postfix/master[2060]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 13 10:50:16 centos1 postfix/pickup[2068]: EEFD47ED3: uid=0 from=<root>
+Feb 13 10:50:17 centos1 postfix/cleanup[9573]: EEFD47ED3: message-id=<20130213155016.EEFD47ED3@centos1.localdomain>
+Feb 13 10:50:17 centos1 postfix/qmgr[2069]: EEFD47ED3: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 13 10:50:17 centos1 postfix/local[9575]: EEFD47ED3: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.15, delays=0.07/0.06/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 13 10:50:17 centos1 postfix/qmgr[2069]: EEFD47ED3: removed
+Feb 14 00:20:16 centos1 postfix/postfix-script[3778]: stopping the Postfix mail system
+Feb 14 00:20:16 centos1 postfix/master[2060]: terminating on signal 15
+Feb 14 11:19:40 centos1 postfix/postfix-script[2139]: starting the Postfix mail system
+Feb 14 11:19:40 centos1 postfix/master[2140]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 14 12:12:03 centos1 postfix/pickup[2148]: 9BD877EE6: uid=0 from=<root>
+Feb 14 12:12:03 centos1 postfix/cleanup[3145]: 9BD877EE6: message-id=<20130214171203.9BD877EE6@centos1.localdomain>
+Feb 14 12:12:03 centos1 postfix/qmgr[2149]: 9BD877EE6: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 14 12:12:03 centos1 postfix/local[3147]: 9BD877EE6: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.15, delays=0.08/0.05/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 14 12:12:03 centos1 postfix/qmgr[2149]: 9BD877EE6: removed
+Feb 15 00:28:43 centos1 postfix/postfix-script[5505]: stopping the Postfix mail system
+Feb 15 00:28:43 centos1 postfix/master[2140]: terminating on signal 15
+Feb 15 10:34:25 centos1 postfix/postfix-script[2077]: starting the Postfix mail system
+Feb 15 10:34:25 centos1 postfix/master[2078]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 15 11:46:16 centos1 postfix/pickup[2086]: E8D1555E3: uid=0 from=<root>
+Feb 15 11:46:16 centos1 postfix/cleanup[3511]: E8D1555E3: message-id=<20130215164616.E8D1555E3@centos1.localdomain>
+Feb 15 11:46:17 centos1 postfix/qmgr[2087]: E8D1555E3: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 15 11:46:17 centos1 postfix/local[3513]: E8D1555E3: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.31, delays=0.11/0.17/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 15 11:46:17 centos1 postfix/qmgr[2087]: E8D1555E3: removed
+Feb 15 17:48:02 centos1 postfix/postfix-script[5372]: stopping the Postfix mail system
+Feb 15 17:48:02 centos1 postfix/master[2078]: terminating on signal 15
+Feb 17 13:21:53 centos1 postfix/postfix-script[2110]: starting the Postfix mail system
+Feb 17 13:21:53 centos1 postfix/master[2111]: daemon started -- version 2.6.6, configuration /etc/postfix

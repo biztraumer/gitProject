@@ -1,0 +1,143 @@
+21:04:25,518 INFO    : CentOS Linux is the highest priority installclass, using it
+21:04:25,519 INFO    : created new libuser.conf at /tmp/libuser.LXc4rf with instPath="/mnt/sysimage"
+21:04:30,495 INFO    : anaconda called with cmdline = ['/usr/sbin/anaconda', '--liveinst', '--method=livecd:///dev/mapper/live-osimg-min', '--text']
+21:04:30,495 INFO    : Display mode = t
+21:04:30,495 INFO    : Default encoding = ascii 
+21:04:30,549 INFO    : Network.update(): /etc/sysconfig/network-scripts/ifcfg-eth0 file not found
+21:04:30,555 INFO    : Network.update(): /etc/sysconfig/network-scripts/ifcfg-eth0 file not found
+21:04:30,556 INFO    : Detected 1008M of memory
+21:04:30,556 INFO    : Swap attempt of 1008M to 2016M
+21:04:30,574 WARNING : step installtype does not exist
+21:04:30,574 WARNING : step confirminstall does not exist
+21:04:30,574 WARNING : step complete does not exist
+21:04:30,575 INFO    : moving (1) to step welcome
+21:04:31,680 INFO    : leaving (1) step welcome
+21:04:31,680 INFO    : moving (1) to step language
+21:04:32,316 INFO    : leaving (1) step language
+21:04:32,320 INFO    : moving (1) to step keyboard
+21:04:32,828 ERROR   : Could not install keymap us: Permission denied
+21:04:32,830 INFO    : leaving (1) step keyboard
+21:04:32,830 INFO    : moving (1) to step storageinit
+21:04:32,830 DEBUG   : storageinit is a direct step
+21:04:33,644 WARNING : '/usr/libexec/fcoe/fcoe_edd.sh' specified as full path
+21:04:33,692 INFO    : No FCoE EDD info found: No FCoE boot disk information is found in EDD!
+
+21:04:33,693 INFO    : no /etc/zfcp.conf; not configuring zfcp
+21:04:38,136 INFO    : leaving (1) step storageinit
+21:04:38,136 INFO    : moving (1) to step network
+21:04:38,246 DEBUG   : Exception caught trying to get host name of 192.168.26.130: [Errno 1] Unknown host
+21:04:38,246 INFO    : leaving (1) step network
+21:04:38,247 INFO    : moving (1) to step timezone
+21:04:40,310 INFO    : leaving (1) step timezone
+21:04:40,310 INFO    : moving (1) to step accounts
+21:04:47,104 INFO    : leaving (1) step accounts
+21:04:47,104 INFO    : moving (1) to step setuptime
+21:04:47,104 DEBUG   : setuptime is a direct step
+21:04:47,118 WARNING : '/usr/sbin/hwclock' specified as full path
+16:04:46,001 INFO    : leaving (1) step setuptime
+16:04:46,002 INFO    : moving (1) to step parttype
+16:04:48,165 INFO    : leaving (1) step parttype
+16:04:48,165 INFO    : moving (1) to step autopartitionexecute
+16:04:48,166 DEBUG   : autopartitionexecute is a direct step
+16:04:48,449 INFO    : leaving (1) step autopartitionexecute
+16:04:48,449 INFO    : moving (1) to step storagedone
+16:04:48,449 DEBUG   : storagedone is a direct step
+16:04:50,244 INFO    : leaving (1) step storagedone
+16:04:50,244 INFO    : moving (1) to step enablefilesystems
+16:04:50,244 DEBUG   : enablefilesystems is a direct step
+16:04:52,200 DEBUG   : notifying kernel of 'change' event on device /sys/class/block/sda1
+16:04:53,148 DEBUG   : notifying kernel of 'change' event on device /sys/class/block/sda2
+16:05:02,242 DEBUG   : notifying kernel of 'change' event on device /sys/class/block/dm-2
+16:05:04,283 DEBUG   : isys.py:mount()- going to mount /dev/sda1 on /mnt/sysimage/boot as ext4 with options defaults
+16:05:04,339 DEBUG   : isys.py:mount()- going to mount //dev on /mnt/sysimage/dev as bind with options defaults,bind
+16:05:04,376 DEBUG   : isys.py:mount()- going to mount devpts on /mnt/sysimage/dev/pts as devpts with options gid=5,mode=620
+16:05:04,413 DEBUG   : isys.py:mount()- going to mount tmpfs on /mnt/sysimage/dev/shm as tmpfs with options defaults
+16:05:04,506 INFO    : failed to get default SELinux context for /proc: [Errno 2] No such file or directory
+16:05:04,506 DEBUG   : isys.py:mount()- going to mount proc on /mnt/sysimage/proc as proc with options defaults
+16:05:04,532 INFO    : failed to get default SELinux context for /proc: [Errno 2] No such file or directory
+16:05:04,542 DEBUG   : isys.py:mount()- going to mount sysfs on /mnt/sysimage/sys as sysfs with options defaults
+16:05:04,575 INFO    : leaving (1) step enablefilesystems
+16:05:04,576 INFO    : moving (1) to step bootloadersetup
+16:05:04,576 DEBUG   : bootloadersetup is a direct step
+16:05:04,581 WARNING : '/usr/sbin/dmidecode' specified as full path
+16:05:04,657 INFO    : leaving (1) step bootloadersetup
+16:05:04,657 INFO    : moving (1) to step reposetup
+16:05:04,657 DEBUG   : reposetup is a direct step
+16:05:04,674 INFO    : leaving (1) step reposetup
+16:05:04,675 INFO    : moving (1) to step basepkgsel
+16:05:04,675 DEBUG   : basepkgsel is a direct step
+16:05:04,675 INFO    : leaving (1) step basepkgsel
+16:05:04,675 INFO    : moving (1) to step postselection
+16:05:04,675 DEBUG   : postselection is a direct step
+16:05:04,675 INFO    : leaving (1) step postselection
+16:05:04,675 INFO    : moving (1) to step install
+16:05:04,676 INFO    : leaving (1) step install
+16:05:04,677 INFO    : moving (1) to step preinstallconfig
+16:05:04,677 DEBUG   : preinstallconfig is a direct step
+16:05:04,678 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/sys, removeDir = False
+16:05:04,726 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/proc, removeDir = False
+16:05:04,755 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/dev/shm, removeDir = False
+16:05:04,787 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/dev/pts, removeDir = False
+16:05:04,816 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/dev, removeDir = False
+16:05:04,935 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/boot, removeDir = False
+16:05:06,362 INFO    : leaving (1) step preinstallconfig
+16:05:06,363 INFO    : moving (1) to step installpackages
+16:05:06,363 DEBUG   : installpackages is a direct step
+16:05:06,363 INFO    : Preparing to install packages
+16:06:46,598 INFO    : leaving (1) step installpackages
+16:06:46,602 INFO    : moving (1) to step postinstallconfig
+16:06:46,602 DEBUG   : postinstallconfig is a direct step
+16:06:46,603 INFO    : doing post-install fs mangling
+16:06:46,660 INFO    : going to do resize
+16:07:06,476 DEBUG   : isys.py:mount()- going to mount /dev/mapper/vg_livecd-lv_root on /mnt/sysimage as ext4 with options defaults
+16:07:06,603 DEBUG   : isys.py:mount()- going to mount /dev/sda1 on /mnt/sysimage/boot as ext4 with options defaults
+16:07:06,670 DEBUG   : isys.py:mount()- going to mount //dev on /mnt/sysimage/dev as bind with options defaults,bind
+16:07:06,709 DEBUG   : isys.py:mount()- going to mount devpts on /mnt/sysimage/dev/pts as devpts with options gid=5,mode=620
+16:07:06,748 DEBUG   : isys.py:mount()- going to mount tmpfs on /mnt/sysimage/dev/shm as tmpfs with options defaults
+16:07:06,935 INFO    : failed to get default SELinux context for /proc: [Errno 2] No such file or directory
+16:07:06,935 DEBUG   : isys.py:mount()- going to mount proc on /mnt/sysimage/proc as proc with options defaults
+16:07:06,962 INFO    : failed to get default SELinux context for /proc: [Errno 2] No such file or directory
+16:07:06,974 DEBUG   : isys.py:mount()- going to mount sysfs on /mnt/sysimage/sys as sysfs with options defaults
+16:07:07,076 DEBUG   : notifying kernel of 'change' event on device /sys/devices/virtual/block/dm-2
+16:07:07,447 INFO    : reset the rootdev (/devices/virtual/block/dm-2) to have a uuid of 7e4a2503-482c-4f9d-bef6-16dffc9b931d
+16:07:07,449 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/boot, removeDir = False
+16:07:07,486 DEBUG   : isys.py:mount()- going to mount /dev/sda1 on /mnt/sysimage/mnt/boot as ext4 with options defaults
+16:07:07,747 DEBUG   : isys.py:umount()- going to unmount /mnt/sysimage/mnt/boot, removeDir = False
+16:07:08,458 DEBUG   : isys.py:mount()- going to mount /dev/sda1 on /mnt/sysimage/boot as ext4 with options defaults
+16:07:08,498 DEBUG   : isys.py:mount()- going to mount /selinux on /mnt/sysimage/selinux as selinuxfs with options defaults
+16:07:08,827 INFO    : copy_to_sysimage: source '/etc/multipath/wwids' does not exist.
+16:07:08,827 INFO    : copy_to_sysimage: source '/etc/multipath/bindings' does not exist.
+16:07:09,116 INFO    : recreating initrd for 2.6.32-220.el6.i686
+16:07:09,116 WARNING : '/sbin/new-kernel-pkg' specified as full path
+16:08:05,794 INFO    : leaving (1) step postinstallconfig
+16:08:05,794 INFO    : moving (1) to step writeconfig
+16:08:05,795 DEBUG   : writeconfig is a direct step
+16:08:05,795 INFO    : Writing main configuration
+16:08:05,867 WARNING : '/usr/sbin/authconfig' specified as full path
+16:08:06,747 ERROR   : would have run ['--quiet', '--nostart', '-f', '--service=ssh']
+16:08:06,748 WARNING : '/usr/sbin/lokkit' specified as full path
+16:08:07,080 INFO    : removing libuser.conf at /tmp/libuser.LXc4rf
+16:08:07,081 INFO    : created new libuser.conf at /tmp/libuser.LXc4rf with instPath="/mnt/sysimage"
+16:08:07,139 INFO    : leaving (1) step writeconfig
+16:08:07,139 INFO    : moving (1) to step firstboot
+16:08:07,139 DEBUG   : firstboot is a direct step
+16:08:07,139 INFO    : leaving (1) step firstboot
+16:08:07,140 INFO    : moving (1) to step instbootloader
+16:08:07,140 DEBUG   : instbootloader is a direct step
+16:08:07,412 WARNING : '/sbin/grub-install' specified as full path
+16:08:07,504 WARNING : '/sbin/grub' specified as full path
+16:08:07,594 INFO    : leaving (1) step instbootloader
+16:08:07,595 INFO    : moving (1) to step reipl
+16:08:07,595 DEBUG   : reipl is a direct step
+16:08:07,595 INFO    : leaving (1) step reipl
+16:08:07,596 INFO    : moving (1) to step writeksconfig
+16:08:07,596 DEBUG   : writeksconfig is a direct step
+16:08:07,596 INFO    : Writing autokickstart file
+16:08:07,662 INFO    : leaving (1) step writeksconfig
+16:08:07,662 INFO    : moving (1) to step setfilecon
+16:08:07,663 DEBUG   : setfilecon is a direct step
+16:08:07,663 INFO    : setting SELinux contexts for anaconda created files
+16:08:12,639 INFO    : leaving (1) step setfilecon
+16:08:12,640 INFO    : moving (1) to step copylogs
+16:08:12,640 DEBUG   : copylogs is a direct step
+16:08:12,640 INFO    : Copying anaconda logs

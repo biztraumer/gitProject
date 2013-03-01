@@ -1,0 +1,235 @@
+Feb 17 17:11:57 centos1 unix_chkpwd[5698]: password check failed for user (root)
+Feb 17 17:11:57 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/0 ruser=admin rhost=  user=root
+Feb 17 17:12:02 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 17 17:15:19 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 18 00:41:33 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 18 00:41:35 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 18 00:41:35 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 18 00:41:37 centos1 sshd[1970]: Received signal 15; terminating.
+Feb 18 11:11:50 centos1 sshd[1907]: Server listening on 0.0.0.0 port 22.
+Feb 18 11:11:50 centos1 sshd[1907]: Server listening on :: port 22.
+Feb 18 11:12:11 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 18 11:20:12 centos1 pam: gdm-password[2312]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 18 11:20:12 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 18 11:20:20 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 18 12:13:41 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 18 12:14:39 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 18 12:19:47 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 18 13:02:41 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 18 13:32:55 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 18 13:50:11 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 18 13:50:16 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 19 00:20:24 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 19 00:20:24 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 19 00:20:25 centos1 sshd[1907]: Received signal 15; terminating.
+Feb 19 12:37:03 centos1 sshd[1954]: Server listening on 0.0.0.0 port 22.
+Feb 19 12:37:03 centos1 sshd[1954]: Server listening on :: port 22.
+Feb 19 12:37:09 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 19 12:37:17 centos1 pam: gdm-password[2317]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 19 12:37:17 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 19 12:37:24 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 19 12:37:49 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 19 17:43:46 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 19 17:49:03 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 19 19:00:14 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 19 19:00:20 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 19 19:28:13 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 19 19:28:16 centos1 unix_chkpwd[5664]: password check failed for user (root)
+Feb 19 19:28:16 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/0 ruser=admin rhost=  user=root
+Feb 19 19:28:21 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 19 19:30:36 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 19 19:30:41 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 00:47:29 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=0)
+Feb 20 00:47:33 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 00:47:34 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 00:47:34 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 20 00:47:36 centos1 sshd[1954]: Received signal 15; terminating.
+Feb 20 11:31:02 centos1 sshd[1897]: Server listening on 0.0.0.0 port 22.
+Feb 20 11:31:02 centos1 sshd[1897]: Server listening on :: port 22.
+Feb 20 11:31:20 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 20 11:31:25 centos1 pam: gdm-password[2302]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 20 11:31:25 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 20 11:31:28 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 20 11:32:20 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 11:59:52 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 12:08:47 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 12:08:49 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 12:08:49 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 20 12:08:51 centos1 sshd[1897]: Received signal 15; terminating.
+Feb 20 12:09:47 centos1 sshd[2002]: Server listening on 0.0.0.0 port 22.
+Feb 20 12:09:47 centos1 sshd[2002]: Server listening on :: port 22.
+Feb 20 12:09:52 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 20 12:09:58 centos1 pam: gdm-password[2369]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 20 12:09:58 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 20 12:10:00 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 20 12:11:25 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 12:11:38 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 12:26:36 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 12:54:07 centos1 groupadd[3171]: group added to /etc/group: name=vboxusers, GID=501
+Feb 20 12:54:07 centos1 groupadd[3171]: group added to /etc/gshadow: name=vboxusers
+Feb 20 12:54:07 centos1 groupadd[3171]: new group: name=vboxusers, GID=501
+Feb 20 12:57:53 centos1 sshd[2002]: Received signal 15; terminating.
+Feb 20 12:57:56 centos1 sshd[3371]: Server listening on 0.0.0.0 port 22.
+Feb 20 12:57:56 centos1 sshd[3371]: Server listening on :: port 22.
+Feb 20 12:58:52 centos1 groupadd[3413]: group added to /etc/group: name=stapsys, GID=157
+Feb 20 12:58:52 centos1 groupadd[3413]: group added to /etc/gshadow: name=stapsys
+Feb 20 12:58:52 centos1 groupadd[3413]: new group: name=stapsys, GID=157
+Feb 20 13:13:48 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 13:13:54 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 13:21:21 centos1 polkitd(authority=local): Operator of unix-session:/org/freedesktop/ConsoleKit/Session2 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.fedoraproject.config.firewall.auth for system-bus-name::1.75 [/usr/bin/python /usr/bin/system-config-firewall] (owned by unix-user:admin)
+Feb 20 13:22:54 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 13:22:54 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 20 13:22:58 centos1 sshd[3371]: Received signal 15; terminating.
+Feb 20 13:23:42 centos1 sshd[1917]: Server listening on 0.0.0.0 port 22.
+Feb 20 13:23:42 centos1 sshd[1917]: Server listening on :: port 22.
+Feb 20 13:23:50 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 20 13:24:11 centos1 pam: gdm-password[2279]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 20 13:24:11 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 20 13:24:13 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 20 13:24:52 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 14:20:49 centos1 useradd[11390]: failed adding user 'dbus', data deleted
+Feb 20 14:27:18 centos1 useradd[11945]: failed adding user 'rpcuser', data deleted
+Feb 20 14:27:18 centos1 groupmod[11950]: group changed in /etc/group (group nfsnobody/65534)
+Feb 20 14:27:42 centos1 useradd[12018]: failed adding user 'tcpdump', data deleted
+Feb 20 14:28:50 centos1 sshd[1917]: Received signal 15; terminating.
+Feb 20 14:28:54 centos1 sshd[12272]: Server listening on 0.0.0.0 port 22.
+Feb 20 14:28:54 centos1 sshd[12272]: Server listening on :: port 22.
+Feb 20 14:34:13 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 14:34:14 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 20 14:34:17 centos1 sshd[12272]: Received signal 15; terminating.
+Feb 20 14:35:06 centos1 sshd[1948]: Server listening on 0.0.0.0 port 22.
+Feb 20 14:35:06 centos1 sshd[1948]: Server listening on :: port 22.
+Feb 20 14:35:14 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 20 14:35:21 centos1 pam: gdm-password[2317]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 20 14:35:21 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 20 14:35:23 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 20 14:35:54 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 16:28:25 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 16:28:31 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 16:36:13 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 16:36:13 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 20 16:36:15 centos1 sshd[1948]: Received signal 15; terminating.
+Feb 20 16:36:57 centos1 sshd[1923]: Server listening on 0.0.0.0 port 22.
+Feb 20 16:36:57 centos1 sshd[1923]: Server listening on :: port 22.
+Feb 20 16:36:59 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.26 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 20 16:37:52 centos1 pam: gdm-password[2293]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 20 16:37:52 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.26, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 20 16:37:54 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 20 16:38:44 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/0 ruser=admin rhost=  user=root
+Feb 20 16:38:49 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 17:57:28 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 20 17:57:28 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 20 17:57:30 centos1 sshd[1923]: Received signal 15; terminating.
+Feb 20 17:59:02 centos1 sshd[1928]: Server listening on 0.0.0.0 port 22.
+Feb 20 17:59:02 centos1 sshd[1928]: Server listening on :: port 22.
+Feb 20 17:59:08 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.26 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 20 18:00:32 centos1 pam: gdm-password[2296]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 20 18:00:32 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.26, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 20 18:00:34 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 20 18:01:37 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/0 ruser=admin rhost=  user=root
+Feb 20 18:01:44 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 20 18:19:59 centos1 sshd[3623]: Accepted password for root from 192.168.137.145 port 39894 ssh2
+Feb 20 18:19:59 centos1 sshd[3623]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 20 18:20:53 centos1 sshd[3623]: Received disconnect from 192.168.137.145: 11: disconnected by user
+Feb 20 18:20:53 centos1 sshd[3623]: pam_unix(sshd:session): session closed for user root
+Feb 21 00:01:37 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 21 00:01:37 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.42, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 21 00:01:39 centos1 sshd[1928]: Received signal 15; terminating.
+Feb 21 11:08:08 centos1 sshd[1913]: Server listening on 0.0.0.0 port 22.
+Feb 21 11:08:08 centos1 sshd[1913]: Server listening on :: port 22.
+Feb 21 11:08:12 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 21 11:09:44 centos1 pam: gdm-password[2283]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 21 11:09:44 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 21 11:09:47 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 21 12:02:38 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 21 15:30:45 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 21 15:54:47 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/0 ruser=admin rhost=  user=root
+Feb 21 15:54:52 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 21 16:14:20 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/1 ruser=admin rhost=  user=root
+Feb 21 16:14:28 centos1 su: pam_unix(su-l:auth): authentication failure; logname=admin uid=500 euid=0 tty=pts/1 ruser=admin rhost=  user=root
+Feb 21 16:14:33 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 21 17:31:53 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 21 17:31:59 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 21 17:35:18 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 22 00:08:16 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 22 00:08:16 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 22 00:08:19 centos1 sshd[1913]: Received signal 15; terminating.
+Feb 23 17:17:23 centos1 sshd[1899]: Server listening on 0.0.0.0 port 22.
+Feb 23 17:17:23 centos1 sshd[1899]: Server listening on :: port 22.
+Feb 23 17:17:41 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 23 17:17:49 centos1 pam: gdm-password[2304]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 23 17:17:49 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 23 17:17:56 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.49 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 23 19:03:37 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 23 19:04:14 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 23 19:32:42 centos1 sshd[4151]: Accepted password for admin from 127.0.0.1 port 50696 ssh2
+Feb 23 19:32:42 centos1 sshd[4151]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 23 19:32:42 centos1 sshd[4154]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 23 19:32:42 centos1 sshd[4151]: pam_unix(sshd:session): session closed for user admin
+Feb 23 19:32:58 centos1 sshd[4194]: Accepted password for admin from 127.0.0.1 port 50699 ssh2
+Feb 23 19:32:58 centos1 sshd[4194]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 23 19:32:58 centos1 sshd[4198]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 23 19:32:58 centos1 sshd[4194]: pam_unix(sshd:session): session closed for user admin
+Feb 23 19:35:59 centos1 sshd[4247]: Accepted password for admin from 127.0.0.1 port 50702 ssh2
+Feb 23 19:35:59 centos1 sshd[4247]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 23 19:35:59 centos1 sshd[4250]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 23 19:35:59 centos1 sshd[4247]: pam_unix(sshd:session): session closed for user admin
+Feb 23 19:36:22 centos1 sshd[4286]: Accepted password for admin from 127.0.0.1 port 50705 ssh2
+Feb 23 19:36:22 centos1 sshd[4286]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 23 19:36:51 centos1 sshd[4289]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 23 19:36:51 centos1 sshd[4286]: pam_unix(sshd:session): session closed for user admin
+Feb 23 19:37:14 centos1 sshd[4369]: Accepted password for admin from 127.0.0.1 port 50706 ssh2
+Feb 23 19:37:14 centos1 sshd[4369]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 23 19:37:14 centos1 sshd[4372]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 23 19:37:14 centos1 sshd[4369]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:23:27 centos1 sshd[5595]: Accepted password for admin from 127.0.0.1 port 50713 ssh2
+Feb 24 01:23:27 centos1 sshd[5595]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:23:27 centos1 sshd[5598]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:23:27 centos1 sshd[5595]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:23:35 centos1 sshd[5622]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost.localdomain  user=admin
+Feb 24 01:23:36 centos1 sshd[5622]: Failed password for admin from 127.0.0.1 port 50714 ssh2
+Feb 24 01:23:45 centos1 sshd[5622]: Accepted password for admin from 127.0.0.1 port 50714 ssh2
+Feb 24 01:23:45 centos1 sshd[5622]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:23:45 centos1 sshd[5627]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:23:45 centos1 sshd[5622]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:23:49 centos1 sshd[5651]: Accepted password for admin from 127.0.0.1 port 50715 ssh2
+Feb 24 01:23:49 centos1 sshd[5651]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:23:49 centos1 sshd[5654]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:23:49 centos1 sshd[5651]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:27:41 centos1 sshd[5737]: Accepted password for admin from 127.0.0.1 port 50716 ssh2
+Feb 24 01:27:41 centos1 sshd[5737]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:27:41 centos1 sshd[5741]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:27:41 centos1 sshd[5737]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:28:33 centos1 sshd[5784]: Accepted password for admin from 127.0.0.1 port 50719 ssh2
+Feb 24 01:28:33 centos1 sshd[5784]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:28:33 centos1 sshd[5787]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:28:33 centos1 sshd[5784]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:29:57 centos1 sshd[5838]: Accepted password for admin from 127.0.0.1 port 50722 ssh2
+Feb 24 01:29:57 centos1 sshd[5838]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:29:57 centos1 sshd[5842]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:29:57 centos1 sshd[5838]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:31:03 centos1 sshd[5894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost.localdomain  user=admin
+Feb 24 01:31:05 centos1 sshd[5894]: Failed password for admin from 127.0.0.1 port 50725 ssh2
+Feb 24 01:31:07 centos1 sshd[5894]: Accepted password for admin from 127.0.0.1 port 50725 ssh2
+Feb 24 01:31:07 centos1 sshd[5894]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:31:07 centos1 sshd[5898]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:31:07 centos1 sshd[5894]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:50:05 centos1 sshd[6149]: Accepted password for admin from 127.0.0.1 port 50734 ssh2
+Feb 24 01:50:05 centos1 sshd[6149]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Feb 24 01:50:05 centos1 sshd[6153]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Feb 24 01:50:05 centos1 sshd[6149]: pam_unix(sshd:session): session closed for user admin
+Feb 24 01:51:12 centos1 in.rexecd[6200]: pam_unix(rexec:session): session opened for user admin by (uid=0)
+Feb 24 01:51:12 centos1 in.rexecd[6200]: pam_unix(rexec:session): session closed for user admin
+Feb 24 01:59:32 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 24 01:59:33 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 24 01:59:34 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.49, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+Feb 24 01:59:37 centos1 sshd[1899]: Received signal 15; terminating.
+Feb 24 12:55:55 centos1 sshd[1932]: Server listening on 0.0.0.0 port 22.
+Feb 24 12:55:55 centos1 sshd[1932]: Server listening on :: port 22.
+Feb 24 12:56:04 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.27 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 24 12:56:13 centos1 pam: gdm-password[2302]: pam_unix(gdm-password:session): session opened for user admin by (uid=0)
+Feb 24 12:56:13 centos1 polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.27, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 24 12:56:16 centos1 polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.41 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+Feb 24 12:57:09 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)
+Feb 24 13:15:01 centos1 su: pam_unix(su-l:session): session closed for user root
+Feb 24 13:25:12 centos1 su: pam_unix(su-l:session): session opened for user root by admin(uid=500)

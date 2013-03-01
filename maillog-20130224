@@ -1,0 +1,61 @@
+Feb 17 14:18:42 centos1 postfix/pickup[2117]: E0F448D51: uid=0 from=<root>
+Feb 17 14:18:43 centos1 postfix/cleanup[4813]: E0F448D51: message-id=<20130217191842.E0F448D51@centos1.localdomain>
+Feb 17 14:18:43 centos1 postfix/qmgr[2118]: E0F448D51: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 17 14:18:43 centos1 postfix/local[4815]: E0F448D51: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.53, delays=0.38/0.13/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 17 14:18:43 centos1 postfix/qmgr[2118]: E0F448D51: removed
+Feb 18 00:41:37 centos1 postfix/postfix-script[7262]: stopping the Postfix mail system
+Feb 18 00:41:37 centos1 postfix/master[2111]: terminating on signal 15
+Feb 18 11:11:56 centos1 postfix/postfix-script[2047]: starting the Postfix mail system
+Feb 18 11:11:56 centos1 postfix/master[2048]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 18 12:25:11 centos1 postfix/pickup[2056]: 5EE9A7F52: uid=0 from=<root>
+Feb 18 12:25:11 centos1 postfix/cleanup[3575]: 5EE9A7F52: message-id=<20130218172511.5EE9A7F52@centos1.localdomain>
+Feb 18 12:25:11 centos1 postfix/qmgr[2057]: 5EE9A7F52: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 18 12:25:11 centos1 postfix/local[3577]: 5EE9A7F52: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.28, delays=0.1/0.15/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 18 12:25:11 centos1 postfix/qmgr[2057]: 5EE9A7F52: removed
+Feb 19 00:20:26 centos1 postfix/postfix-script[9654]: stopping the Postfix mail system
+Feb 19 00:20:26 centos1 postfix/master[2048]: terminating on signal 15
+Feb 19 12:37:04 centos1 postfix/postfix-script[2094]: starting the Postfix mail system
+Feb 19 12:37:04 centos1 postfix/master[2095]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 19 13:26:03 centos1 postfix/pickup[2103]: 44FDA5529: uid=0 from=<root>
+Feb 19 13:26:03 centos1 postfix/cleanup[2946]: 44FDA5529: message-id=<20130219182603.44FDA5529@centos1.localdomain>
+Feb 19 13:26:03 centos1 postfix/qmgr[2104]: 44FDA5529: from=<root@centos1.localdomain>, size=508, nrcpt=1 (queue active)
+Feb 19 13:26:03 centos1 postfix/local[2948]: 44FDA5529: to=<root@centos1.localdomain>, orig_to=<root>, relay=local, delay=0.29, delays=0.13/0.14/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Feb 19 13:26:03 centos1 postfix/qmgr[2104]: 44FDA5529: removed
+Feb 20 00:47:36 centos1 postfix/postfix-script[8536]: stopping the Postfix mail system
+Feb 20 00:47:36 centos1 postfix/master[2095]: terminating on signal 15
+Feb 20 11:31:06 centos1 postfix/postfix-script[2037]: starting the Postfix mail system
+Feb 20 11:31:06 centos1 postfix/master[2038]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 20 12:08:51 centos1 postfix/postfix-script[2893]: stopping the Postfix mail system
+Feb 20 12:08:51 centos1 postfix/master[2038]: terminating on signal 15
+Feb 20 12:09:48 centos1 postfix/postfix-script[2142]: starting the Postfix mail system
+Feb 20 12:09:48 centos1 postfix/master[2143]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 20 13:22:58 centos1 postfix/postfix-script[4310]: stopping the Postfix mail system
+Feb 20 13:22:58 centos1 postfix/postfix-script[4313]: waiting for the Postfix mail system to terminate
+Feb 20 13:22:58 centos1 postfix/master[2143]: terminating on signal 15
+Feb 20 13:23:44 centos1 postfix/postfix-script[2057]: starting the Postfix mail system
+Feb 20 13:23:44 centos1 postfix/master[2058]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 20 14:34:17 centos1 postfix/postfix-script[22532]: stopping the Postfix mail system
+Feb 20 14:34:18 centos1 postfix/postfix-script[22535]: waiting for the Postfix mail system to terminate
+Feb 20 14:34:18 centos1 postfix/master[2058]: terminating on signal 15
+Feb 20 14:35:08 centos1 postfix/postfix-script[2088]: starting the Postfix mail system
+Feb 20 14:35:08 centos1 postfix/master[2089]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 20 16:36:16 centos1 postfix/postfix-script[12442]: stopping the Postfix mail system
+Feb 20 16:36:16 centos1 postfix/master[2089]: terminating on signal 15
+Feb 20 16:36:58 centos1 postfix/postfix-script[2063]: starting the Postfix mail system
+Feb 20 16:36:58 centos1 postfix/master[2064]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 20 17:57:30 centos1 postfix/postfix-script[2910]: stopping the Postfix mail system
+Feb 20 17:57:30 centos1 postfix/master[2064]: terminating on signal 15
+Feb 20 17:59:03 centos1 postfix/postfix-script[2068]: starting the Postfix mail system
+Feb 20 17:59:03 centos1 postfix/master[2069]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 21 00:01:39 centos1 postfix/postfix-script[10460]: stopping the Postfix mail system
+Feb 21 00:01:39 centos1 postfix/master[2069]: terminating on signal 15
+Feb 21 11:08:10 centos1 postfix/postfix-script[2053]: starting the Postfix mail system
+Feb 21 11:08:10 centos1 postfix/master[2054]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 22 00:08:19 centos1 postfix/postfix-script[22726]: stopping the Postfix mail system
+Feb 22 00:08:19 centos1 postfix/master[2054]: terminating on signal 15
+Feb 23 17:17:27 centos1 postfix/postfix-script[2039]: starting the Postfix mail system
+Feb 23 17:17:27 centos1 postfix/master[2040]: daemon started -- version 2.6.6, configuration /etc/postfix
+Feb 24 01:59:38 centos1 postfix/postfix-script[6473]: stopping the Postfix mail system
+Feb 24 01:59:38 centos1 postfix/master[2040]: terminating on signal 15
+Feb 24 12:55:56 centos1 postfix/postfix-script[2072]: starting the Postfix mail system
+Feb 24 12:55:56 centos1 postfix/master[2073]: daemon started -- version 2.6.6, configuration /etc/postfix

@@ -1,0 +1,710 @@
+[    30.228] 
+X.Org X Server 1.10.6
+Release Date: 2012-02-10
+[    30.228] X Protocol Version 11, Revision 0
+[    30.228] Build Operating System: c6b7 2.6.32-220.el6.x86_64 
+[    30.228] Current Operating System: Linux centos1.localdomain 2.6.32-279.22.1.el6.i686 #1 SMP Wed Feb 6 00:31:03 UTC 2013 i686
+[    30.228] Kernel command line: ro root=/dev/mapper/vg_livecd-lv_root rd_NO_LUKS LANG=en_US.UTF-8 rd_LVM_LV=vg_livecd/lv_swap rd_NO_MD quiet rd_LVM_LV=vg_livecd/lv_root SYSFONT=latarcyrheb-sun16 rhgb   KEYBOARDTYPE=pc KEYTABLE=us rd_NO_DM
+[    30.228] Build Date: 24 January 2013  04:09:40PM
+[    30.228] Build ID: xorg-x11-server 1.10.6-1.0.1.el6.centos 
+[    30.228] Current version of pixman: 0.18.4
+[    30.228] 	Before reporting problems, check http://wiki.centos.org/Documentation
+	to make sure that you have the latest version.
+[    30.228] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    30.228] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Feb 28 10:17:56 2013
+[    30.331] (II) Loader magic: 0x822d580
+[    30.331] (II) Module ABI versions:
+[    30.331] 	X.Org ANSI C Emulation: 0.4
+[    30.331] 	X.Org Video Driver: 10.0
+[    30.331] 	X.Org XInput driver : 12.2
+[    30.331] 	X.Org Server Extension : 5.0
+[    30.333] (--) PCI:*(0:0:15:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xf0000000/134217728, 0xe8000000/8388608, I/O @ 0x000014d0/16, BIOS @ 0x????????/32768
+[    30.333] (==) Using default built-in configuration (30 lines)
+[    30.333] (==) --- Start of built-in configuration ---
+[    30.333] 	Section "Device"
+[    30.333] 		Identifier	"Builtin Default vmware Device 0"
+[    30.333] 		Driver	"vmware"
+[    30.333] 	EndSection
+[    30.333] 	Section "Screen"
+[    30.333] 		Identifier	"Builtin Default vmware Screen 0"
+[    30.333] 		Device	"Builtin Default vmware Device 0"
+[    30.333] 	EndSection
+[    30.333] 	Section "Device"
+[    30.333] 		Identifier	"Builtin Default vesa Device 0"
+[    30.333] 		Driver	"vesa"
+[    30.333] 	EndSection
+[    30.333] 	Section "Screen"
+[    30.333] 		Identifier	"Builtin Default vesa Screen 0"
+[    30.333] 		Device	"Builtin Default vesa Device 0"
+[    30.333] 	EndSection
+[    30.333] 	Section "Device"
+[    30.333] 		Identifier	"Builtin Default fbdev Device 0"
+[    30.333] 		Driver	"fbdev"
+[    30.333] 	EndSection
+[    30.333] 	Section "Screen"
+[    30.333] 		Identifier	"Builtin Default fbdev Screen 0"
+[    30.333] 		Device	"Builtin Default fbdev Device 0"
+[    30.333] 	EndSection
+[    30.333] 	Section "ServerLayout"
+[    30.333] 		Identifier	"Builtin Default Layout"
+[    30.333] 		Screen	"Builtin Default vmware Screen 0"
+[    30.333] 		Screen	"Builtin Default vesa Screen 0"
+[    30.333] 		Screen	"Builtin Default fbdev Screen 0"
+[    30.333] 	EndSection
+[    30.333] (==) --- End of built-in configuration ---
+[    30.334] (==) ServerLayout "Builtin Default Layout"
+[    30.334] (**) |-->Screen "Builtin Default vmware Screen 0" (0)
+[    30.334] (**) |   |-->Monitor "<default monitor>"
+[    30.334] (**) |   |-->Device "Builtin Default vmware Device 0"
+[    30.334] (==) No monitor specified for screen "Builtin Default vmware Screen 0".
+	Using a default monitor configuration.
+[    30.334] (**) |-->Screen "Builtin Default vesa Screen 0" (1)
+[    30.334] (**) |   |-->Monitor "<default monitor>"
+[    30.334] (**) |   |-->Device "Builtin Default vesa Device 0"
+[    30.334] (==) No monitor specified for screen "Builtin Default vesa Screen 0".
+	Using a default monitor configuration.
+[    30.334] (**) |-->Screen "Builtin Default fbdev Screen 0" (2)
+[    30.334] (**) |   |-->Monitor "<default monitor>"
+[    30.335] (**) |   |-->Device "Builtin Default fbdev Device 0"
+[    30.335] (==) No monitor specified for screen "Builtin Default fbdev Screen 0".
+	Using a default monitor configuration.
+[    30.335] (==) Automatically adding devices
+[    30.335] (==) Automatically enabling devices
+[    30.335] (==) FontPath set to:
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    30.335] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    30.335] (II) The server relies on HAL to provide the list of input devices.
+	If no devices become available, reconfigure HAL or disable AutoAddDevices.
+[    30.335] (II) LoadModule: "extmod"
+[    30.336] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[    30.336] (II) Module extmod: vendor="X.Org Foundation"
+[    30.336] 	compiled for 1.10.6, module version = 1.0.0
+[    30.336] 	Module class: X.Org Server Extension
+[    30.336] 	ABI class: X.Org Server Extension, version 5.0
+[    30.336] (II) Loading extension SELinux
+[    30.336] (II) Loading extension MIT-SCREEN-SAVER
+[    30.336] (II) Loading extension XFree86-VidModeExtension
+[    30.336] (II) Loading extension XFree86-DGA
+[    30.336] (II) Loading extension DPMS
+[    30.336] (II) Loading extension XVideo
+[    30.336] (II) Loading extension XVideo-MotionCompensation
+[    30.336] (II) Loading extension X-Resource
+[    30.336] (II) LoadModule: "dbe"
+[    30.336] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[    30.337] (II) Module dbe: vendor="X.Org Foundation"
+[    30.337] 	compiled for 1.10.6, module version = 1.0.0
+[    30.337] 	Module class: X.Org Server Extension
+[    30.337] 	ABI class: X.Org Server Extension, version 5.0
+[    30.337] (II) Loading extension DOUBLE-BUFFER
+[    30.337] (II) LoadModule: "glx"
+[    30.337] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    30.337] (II) Module glx: vendor="X.Org Foundation"
+[    30.337] 	compiled for 1.10.6, module version = 1.0.0
+[    30.337] 	ABI class: X.Org Server Extension, version 5.0
+[    30.337] (==) AIGLX enabled
+[    30.337] (II) Loading extension GLX
+[    30.337] (II) LoadModule: "record"
+[    30.337] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[    30.338] (II) Module record: vendor="X.Org Foundation"
+[    30.338] 	compiled for 1.10.6, module version = 1.13.0
+[    30.338] 	Module class: X.Org Server Extension
+[    30.338] 	ABI class: X.Org Server Extension, version 5.0
+[    30.338] (II) Loading extension RECORD
+[    30.338] (II) LoadModule: "dri"
+[    30.338] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[    30.338] (II) Module dri: vendor="X.Org Foundation"
+[    30.338] 	compiled for 1.10.6, module version = 1.0.0
+[    30.338] 	ABI class: X.Org Server Extension, version 5.0
+[    30.338] (II) Loading extension XFree86-DRI
+[    30.338] (II) LoadModule: "dri2"
+[    30.338] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[    30.339] (II) Module dri2: vendor="X.Org Foundation"
+[    30.339] 	compiled for 1.10.6, module version = 1.2.0
+[    30.339] 	ABI class: X.Org Server Extension, version 5.0
+[    30.339] (II) Loading extension DRI2
+[    30.339] (II) LoadModule: "vmware"
+[    30.339] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[    30.339] (II) Module vmware: vendor="X.Org Foundation"
+[    30.339] 	compiled for 1.10.4, module version = 11.0.3
+[    30.339] 	Module class: X.Org Video Driver
+[    30.339] 	ABI class: X.Org Video Driver, version 10.0
+[    30.339] (II) LoadModule: "vmwgfx"
+[    30.339] (WW) Warning, couldn't open module vmwgfx
+[    30.339] (II) UnloadModule: "vmwgfx"
+[    30.339] (II) Unloading vmwgfx
+[    30.339] (EE) Failed to load module "vmwgfx" (module does not exist, 0)
+[    30.339] (EE) vmware: Please ignore the above warnings about not being able to to load module/driver vmwgfx
+[    30.339] (II) vmware: Using vmwlegacy driver everything is fine.
+[    30.339] (II) LoadModule: "vmwlegacy"
+[    30.339] (II) Loading /usr/lib/xorg/modules/drivers/vmwlegacy_drv.so
+[    30.340] (II) Module vmwlegacy: vendor="X.Org Foundation"
+[    30.340] 	compiled for 1.10.4, module version = 11.0.3
+[    30.340] 	Module class: X.Org Video Driver
+[    30.340] 	ABI class: X.Org Video Driver, version 10.0
+[    30.340] (II) LoadModule: "vesa"
+[    30.340] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    30.340] (II) Module vesa: vendor="X.Org Foundation"
+[    30.340] 	compiled for 1.10.4, module version = 2.3.0
+[    30.340] 	Module class: X.Org Video Driver
+[    30.340] 	ABI class: X.Org Video Driver, version 10.0
+[    30.340] (II) LoadModule: "fbdev"
+[    30.340] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    30.341] (II) Module fbdev: vendor="X.Org Foundation"
+[    30.341] 	compiled for 1.10.4, module version = 0.4.2
+[    30.341] 	ABI class: X.Org Video Driver, version 10.0
+[    30.341] (II) vmwlegacy: driver for VMware SVGA: vmware0405, vmware0710
+[    30.341] (II) VESA: driver for VESA chipsets: vesa
+[    30.341] (II) FBDEV: driver for framebuffer: fbdev
+[    30.341] (++) using VT number 1
+
+[    30.341] (II) Loading /usr/lib/xorg/modules/drivers/vmwlegacy_drv.so
+[    30.341] (WW) Falling back to old probe method for vesa
+[    30.341] (WW) Falling back to old probe method for fbdev
+[    30.341] (II) Loading sub module "fbdevhw"
+[    30.341] (II) LoadModule: "fbdevhw"
+[    30.341] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    30.342] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    30.342] 	compiled for 1.10.6, module version = 0.0.2
+[    30.342] 	ABI class: X.Org Video Driver, version 10.0
+[    30.342] (EE) open /dev/fb0: No such device
+[    30.342] (--) vmwlegacy(0): VMware SVGA regs at (0x14d0, 0x14d1)
+[    30.342] (II) Loading sub module "vgahw"
+[    30.342] (II) LoadModule: "vgahw"
+[    30.342] (II) Loading /usr/lib/xorg/modules/libvgahw.so
+[    30.342] (II) Module vgahw: vendor="X.Org Foundation"
+[    30.342] 	compiled for 1.10.6, module version = 0.1.0
+[    30.342] 	ABI class: X.Org Video Driver, version 10.0
+[    30.383] (--) vmwlegacy(0): caps:  0x000B83E2
+[    30.383] (--) vmwlegacy(0): depth: 24
+[    30.383] (--) vmwlegacy(0): bpp:   32
+[    30.383] (--) vmwlegacy(0): vram:  33554432
+[    30.383] (--) vmwlegacy(0): pbase: 0xf0000000
+[    30.383] (--) vmwlegacy(0): mwidt: 3840
+[    30.383] (--) vmwlegacy(0): mheig: 1920
+[    30.383] (II) vmwlegacy(0): Creating default Display subsection in Screen section
+	"Builtin Default vmware Screen 0" for depth/fbbpp 24/32
+[    30.383] (--) vmwlegacy(0): depth: 24
+[    30.383] (--) vmwlegacy(0): bpp:   32
+[    30.383] (--) vmwlegacy(0): w.red: 8
+[    30.383] (--) vmwlegacy(0): w.grn: 8
+[    30.383] (--) vmwlegacy(0): w.blu: 8
+[    30.383] (--) vmwlegacy(0): vis:   4
+[    30.383] (==) vmwlegacy(0): Depth 24, (==) framebuffer bpp 32
+[    30.383] (==) vmwlegacy(0): RGB weight 888
+[    30.383] (==) vmwlegacy(0): Default visual is TrueColor
+[    30.383] (==) vmwlegacy(0): Using HW cursor
+[    30.383] (==) vmwlegacy(0): Using gamma correction (1.0, 1.0, 1.0)
+[    30.383] (II) vmwlegacy(0): <default monitor>: Using default hsync range of 31.50-48.00 kHz
+[    30.383] (II) vmwlegacy(0): <default monitor>: Using default vrefresh range of 50.00-70.00 Hz
+[    30.383] (II) vmwlegacy(0): <default monitor>: Using default maximum pixel clock of 65.00 MHz
+[    30.383] (WW) vmwlegacy(0): Unable to estimate virtual size
+[    30.383] (II) vmwlegacy(0): Clock range:   0.00 to 400000.00 MHz
+[    30.383] (II) vmwlegacy(0): Not using default mode "640x350" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "640x400" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "720x400" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "640x480" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "640x480" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "640x480" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "800x600" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "800x600" (vrefresh out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "800x600" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "800x600" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "848x480" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1024x768i" (bad mode clock/interlace/doublescan)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1024x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1024x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1024x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1024x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1152x864" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x768" (monitor doesn't support reduced blanking)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x768" (mode clock too high)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x768" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x800" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x800" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x800" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x800" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x800" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x960" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x960" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x960" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x1024" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x1024" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x1024" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1280x1024" (hsync out of range)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1360x768" (mode clock too high)
+[    30.383] (II) vmwlegacy(0): Not using default mode "1360x768" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1400x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1400x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1400x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1400x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1400x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1440x900" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1440x900" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1440x900" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1440x900" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1440x900" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1600x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1600x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1600x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1600x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1600x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1600x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1680x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1680x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1680x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1680x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1680x1050" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1792x1344" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1792x1344" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1792x1344" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1856x1392" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1856x1392" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1856x1392" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1200" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1440" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1440" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "1920x1440" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "2560x1600" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "2560x1600" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "2560x1600" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "2560x1600" (hsync out of range)
+[    30.384] (II) vmwlegacy(0): Not using default mode "2560x1600" (hsync out of range)
+[    30.384] (--) vmwlegacy(0): Virtual size is 1024x768 (pitch 1024)
+[    30.384] (**) vmwlegacy(0): *Default mode "1024x768": 65.0 MHz, 48.4 kHz, 60.0 Hz
+[    30.384] (II) vmwlegacy(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[    30.384] (**) vmwlegacy(0): *Default mode "800x600": 40.0 MHz, 37.9 kHz, 60.3 Hz
+[    30.384] (II) vmwlegacy(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[    30.384] (**) vmwlegacy(0): *Default mode "800x600": 36.0 MHz, 35.2 kHz, 56.2 Hz
+[    30.384] (II) vmwlegacy(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz)
+[    30.384] (**) vmwlegacy(0): *Default mode "640x480": 25.2 MHz, 31.5 kHz, 59.9 Hz
+[    30.384] (II) vmwlegacy(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz)
+[    30.384] (==) vmwlegacy(0): DPI set to (96, 96)
+[    30.384] (II) Loading sub module "fb"
+[    30.384] (II) LoadModule: "fb"
+[    30.384] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    30.384] (II) Module fb: vendor="X.Org Foundation"
+[    30.384] 	compiled for 1.10.6, module version = 1.0.0
+[    30.384] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    30.384] (II) Loading sub module "shadowfb"
+[    30.384] (II) LoadModule: "shadowfb"
+[    30.384] (II) Loading /usr/lib/xorg/modules/libshadowfb.so
+[    30.385] (II) Module shadowfb: vendor="X.Org Foundation"
+[    30.385] 	compiled for 1.10.6, module version = 1.0.0
+[    30.385] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    30.385] (II) Loading sub module "ramdac"
+[    30.385] (II) LoadModule: "ramdac"
+[    30.385] (II) Module "ramdac" already built-in
+[    30.385] (II) UnloadModule: "vesa"
+[    30.385] (II) Unloading vesa
+[    30.385] (II) UnloadModule: "fbdev"
+[    30.385] (II) Unloading fbdev
+[    30.385] (II) UnloadModule: "fbdevhw"
+[    30.385] (II) Unloading fbdevhw
+[    30.385] (--) Depth 24 pixmap format is 32 bpp
+[    30.385] (II) vmwlegacy(0): Initialized VMWARE_CTRL extension version 0.2
+[    30.385] (II) vmwlegacy(0): Initialized VMware Xinerama extension.
+[    30.385] (II) vmwlegacy(0): vgaHWGetIOBase: hwp->IOBase is 0x03d0, hwp->PIOOffset is 0x0000
+[    30.509] (==) vmwlegacy(0): Backing store disabled
+[    30.509] (==) vmwlegacy(0): Silken mouse enabled
+[    30.510] (II) vmwlegacy(0): Initialized VMware Xv extension successfully.
+[    30.511] (==) RandR enabled
+[    30.511] (II) Initializing built-in extension Generic Event Extension
+[    30.511] (II) Initializing built-in extension SHAPE
+[    30.511] (II) Initializing built-in extension MIT-SHM
+[    30.511] (II) Initializing built-in extension XInputExtension
+[    30.511] (II) Initializing built-in extension XTEST
+[    30.511] (II) Initializing built-in extension BIG-REQUESTS
+[    30.511] (II) Initializing built-in extension SYNC
+[    30.511] (II) Initializing built-in extension XKEYBOARD
+[    30.511] (II) Initializing built-in extension XC-MISC
+[    30.511] (II) Initializing built-in extension XINERAMA
+[    30.511] (II) Initializing built-in extension XFIXES
+[    30.511] (II) Initializing built-in extension RENDER
+[    30.511] (II) Initializing built-in extension RANDR
+[    30.511] (II) Initializing built-in extension COMPOSITE
+[    30.511] (II) Initializing built-in extension DAMAGE
+[    30.511] (II) SELinux: Disabled on system
+[    30.519] (II) AIGLX: Screen 0 is not DRI2 capable
+[    30.519] (II) AIGLX: Screen 0 is not DRI capable
+[    30.522] (II) AIGLX: Loaded and initialized /usr/lib/dri/swrast_dri.so
+[    30.522] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    30.654] (II) config/hal: Adding input device ImPS/2 Generic Wheel Mouse
+[    30.655] (II) LoadModule: "vmmouse"
+[    30.655] (II) Loading /usr/lib/xorg/modules/input/vmmouse_drv.so
+[    30.655] (II) Module vmmouse: vendor="X.Org Foundation"
+[    30.655] 	compiled for 1.10.4, module version = 12.7.0
+[    30.655] 	Module class: X.Org XInput Driver
+[    30.655] 	ABI class: X.Org XInput driver, version 12.2
+[    30.655] (II) VMWARE(0): VMMOUSE module was loaded
+[    30.655] (II) Using input driver 'vmmouse' for 'ImPS/2 Generic Wheel Mouse'
+[    30.655] (II) Loading /usr/lib/xorg/modules/input/vmmouse_drv.so
+[    30.655] (**) ImPS/2 Generic Wheel Mouse: always reports core events
+[    30.655] (II) VMWARE(0): vmmouse is available
+[    30.655] (**) Option "Device" "/dev/input/event3"
+[    30.655] (**) ImPS/2 Generic Wheel Mouse: ZAxisMapping: buttons 4 and 5
+[    30.656] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/platform_i8042_i8042_AUX_port_logicaldev_input"
+[    30.656] (II) XINPUT: Adding extended input device "ImPS/2 Generic Wheel Mouse" (type: MOUSE)
+[    30.656] (II) VMWARE(0): VMMOUSE DEVICE_INIT
+[    30.656] (**) ImPS/2 Generic Wheel Mouse: (accel) keeping acceleration scheme 1
+[    30.656] (**) ImPS/2 Generic Wheel Mouse: (accel) acceleration profile 0
+[    30.656] (**) ImPS/2 Generic Wheel Mouse: (accel) acceleration factor: 2.000
+[    30.656] (**) ImPS/2 Generic Wheel Mouse: (accel) acceleration threshold: 4
+[    30.656] (II) VMWARE(0): VMMOUSE DEVICE_ON
+[    30.656] (II) VMWARE(0): vmmouse enabled
+[    30.659] (II) config/hal: Adding input device AT Translated Set 2 keyboard
+[    30.659] (II) LoadModule: "evdev"
+[    30.660] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    30.660] (II) Module evdev: vendor="X.Org Foundation"
+[    30.660] 	compiled for 1.10.4, module version = 2.6.0
+[    30.660] 	Module class: X.Org XInput Driver
+[    30.660] 	ABI class: X.Org XInput driver, version 12.2
+[    30.660] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    30.660] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    30.660] (**) AT Translated Set 2 keyboard: always reports core events
+[    30.661] (**) AT Translated Set 2 keyboard: Device: "/dev/input/event2"
+[    30.661] (--) AT Translated Set 2 keyboard: Found keys
+[    30.661] (II) AT Translated Set 2 keyboard: Configuring as keyboard
+[    30.661] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/platform_i8042_i8042_KBD_port_logicaldev_input"
+[    30.661] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD)
+[    30.661] (**) Option "xkb_rules" "evdev"
+[    30.661] (**) Option "xkb_model" "pc105+inet"
+[    30.661] (**) Option "xkb_layout" "us"
+[    30.661] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    30.698] (II) config/hal: Adding input device Power Button
+[    30.698] (II) Using input driver 'evdev' for 'Power Button'
+[    30.698] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    30.698] (**) Power Button: always reports core events
+[    30.698] (**) Power Button: Device: "/dev/input/event0"
+[    30.698] (--) Power Button: Found keys
+[    30.698] (II) Power Button: Configuring as keyboard
+[    30.698] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input"
+[    30.698] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+[    30.698] (**) Option "xkb_rules" "evdev"
+[    30.698] (**) Option "xkb_model" "pc105+inet"
+[    30.698] (**) Option "xkb_layout" "us"
+[    30.698] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    30.702] (II) config/hal: Adding input device Macintosh mouse button emulation
+[    30.702] (II) Using input driver 'evdev' for 'Macintosh mouse button emulation'
+[    30.702] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    30.702] (**) Macintosh mouse button emulation: always reports core events
+[    30.702] (**) Macintosh mouse button emulation: Device: "/dev/input/event1"
+[    30.702] (--) Macintosh mouse button emulation: Found 3 mouse buttons
+[    30.702] (--) Macintosh mouse button emulation: Found relative axes
+[    30.702] (--) Macintosh mouse button emulation: Found x and y relative axes
+[    30.702] (II) Macintosh mouse button emulation: Configuring as mouse
+[    30.702] (**) Macintosh mouse button emulation: YAxisMapping: buttons 4 and 5
+[    30.702] (**) Macintosh mouse button emulation: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    30.702] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input_0"
+[    30.702] (II) XINPUT: Adding extended input device "Macintosh mouse button emulation" (type: MOUSE)
+[    30.702] (II) Macintosh mouse button emulation: initialized for relative axes.
+[    30.702] (**) Macintosh mouse button emulation: (accel) keeping acceleration scheme 1
+[    30.702] (**) Macintosh mouse button emulation: (accel) acceleration profile 0
+[    30.702] (**) Macintosh mouse button emulation: (accel) acceleration factor: 2.000
+[    30.702] (**) Macintosh mouse button emulation: (accel) acceleration threshold: 4
+[    30.702] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 1 connected from local host ( uid=0 gid=0 pid=2098 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    30.798] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 connected from local host ( uid=0 gid=0 pid=2105 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    30.799] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 disconnected
+[    30.802] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 connected from local host ( uid=0 gid=0 pid=2107 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    30.805] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 disconnected
+[    30.807] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 connected from local host ( uid=0 gid=0 pid=2110 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    30.807] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 disconnected
+[    30.945] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 2 connected from local host ( uid=42 gid=42 pid=2182 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    30.979] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 3 connected from local host ( uid=42 gid=42 pid=2185 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    30.999] AUDIT: Thu Feb 28 10:17:56 2013: 2100: client 4 connected from local host ( uid=42 gid=42 pid=2187 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    31.550] AUDIT: Thu Feb 28 10:17:57 2013: 2100: client 5 connected from local host ( uid=42 gid=42 pid=2209 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    31.551] AUDIT: Thu Feb 28 10:17:57 2013: 2100: client 6 connected from local host ( uid=42 gid=42 pid=2213 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    31.627] AUDIT: Thu Feb 28 10:17:57 2013: 2100: client 7 connected from local host ( uid=42 gid=42 pid=2221 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    31.627] AUDIT: Thu Feb 28 10:17:57 2013: 2100: client 7 disconnected
+[    32.611] AUDIT: Thu Feb 28 10:17:58 2013: 2100: client 8 connected from local host ( uid=42 gid=42 pid=2213 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    32.630] AUDIT: Thu Feb 28 10:17:58 2013: 2100: client 7 connected from local host ( uid=42 gid=42 pid=2187 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    32.755] AUDIT: Thu Feb 28 10:17:58 2013: 2100: client 9 connected from local host ( uid=42 gid=42 pid=2225 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    32.832] AUDIT: Thu Feb 28 10:17:58 2013: 2100: client 10 connected from local host ( uid=42 gid=42 pid=2225 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.257] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 11 connected from local host ( uid=42 gid=42 pid=2226 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.263] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 12 connected from local host ( uid=42 gid=42 pid=2213 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.263] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 12 disconnected
+[    33.330] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 13 connected from local host ( uid=42 gid=42 pid=2228 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.346] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 14 connected from local host ( uid=42 gid=42 pid=2226 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.562] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 16 connected from local host ( uid=42 gid=42 pid=2226 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.566] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 16 disconnected
+[    33.580] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 16 connected from local host ( uid=42 gid=42 pid=2228 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.683] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 15 connected from local host ( uid=42 gid=42 pid=2229 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.739] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 17 connected from local host ( uid=42 gid=42 pid=2227 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.755] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 18 connected from local host ( uid=42 gid=42 pid=2229 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.868] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 19 connected from local host ( uid=42 gid=42 pid=2230 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.950] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 20 connected from local host ( uid=42 gid=42 pid=2227 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    33.959] AUDIT: Thu Feb 28 10:17:59 2013: 2100: client 21 connected from local host ( uid=42 gid=42 pid=2240 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    34.245] AUDIT: Thu Feb 28 10:18:00 2013: 2100: client 22 connected from local host ( uid=42 gid=42 pid=2230 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    34.871] AUDIT: Thu Feb 28 10:18:00 2013: 2100: client 23 connected from local host ( uid=42 gid=42 pid=2240 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    36.355] AUDIT: Thu Feb 28 10:18:02 2013: 2100: client 14 disconnected
+[    36.356] AUDIT: Thu Feb 28 10:18:02 2013: 2100: client 11 disconnected
+[    38.831] (II) VMWARE(0): vmmouse enable absolute mode
+[    40.028] AUDIT: Thu Feb 28 10:18:05 2013: 2100: client 11 connected from local host ( uid=0 gid=0 pid=2098 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    46.848] AUDIT: Thu Feb 28 10:18:12 2013: 2100: client 14 connected from local host ( uid=42 gid=42 pid=2225 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    46.848] AUDIT: Thu Feb 28 10:18:12 2013: 2100: client 14 disconnected
+[    49.153] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 5 disconnected
+[    49.159] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 15 disconnected
+[    49.159] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 13 disconnected
+[    49.159] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 20 disconnected
+[    49.159] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 18 disconnected
+[    49.159] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 17 disconnected
+[    49.159] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 16 disconnected
+[    49.160] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 19 disconnected
+[    49.163] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 22 disconnected
+[    49.168] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 9 disconnected
+[    49.168] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 10 disconnected
+[    49.187] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 disconnected
+[    49.187] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 7 disconnected
+[    49.222] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 23 disconnected
+[    49.222] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 21 disconnected
+[    49.222] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 8 disconnected
+[    49.229] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 6 disconnected
+[    49.245] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 connected from local host ( uid=0 gid=0 pid=2263 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.246] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 disconnected
+[    49.308] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 connected from local host ( uid=500 gid=500 pid=2267 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.309] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 disconnected
+[    49.310] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 connected from local host ( uid=500 gid=500 pid=2268 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.310] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 disconnected
+[    49.322] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 4 connected from local host ( uid=500 gid=500 pid=2270 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.344] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 5 connected from local host ( uid=500 gid=500 pid=2273 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.367] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 6 connected from local host ( uid=500 gid=500 pid=2277 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.367] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 6 disconnected
+[    49.465] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 6 connected from local host ( uid=500 gid=500 pid=2265 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    49.998] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 7 connected from local host ( uid=500 gid=500 pid=2306 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.012] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 7 disconnected
+[    50.014] AUDIT: Thu Feb 28 10:18:15 2013: 2100: client 7 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.184] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 connected from local host ( uid=500 gid=500 pid=2314 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.184] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 disconnected
+[    50.204] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 connected from local host ( uid=500 gid=500 pid=2316 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.206] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 disconnected
+[    50.299] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.299] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 disconnected
+[    50.319] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.319] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 disconnected
+[    50.330] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 9 connected from local host ( uid=500 gid=500 pid=2324 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.487] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 10 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.487] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 10 disconnected
+[    50.544] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 12 connected from local host ( uid=500 gid=500 pid=2325 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.814] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 8 connected from local host ( uid=500 gid=500 pid=2345 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.831] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 13 connected from local host ( uid=500 gid=500 pid=2346 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.981] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 14 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    50.987] AUDIT: Thu Feb 28 10:18:16 2013: 2100: client 14 disconnected
+[    51.243] AUDIT: Thu Feb 28 10:18:17 2013: 2100: client 15 connected from local host ( uid=500 gid=500 pid=2332 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    51.579] AUDIT: Thu Feb 28 10:18:17 2013: 2100: client 16 connected from local host ( uid=500 gid=500 pid=2357 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    51.793] AUDIT: Thu Feb 28 10:18:17 2013: 2100: client 17 connected from local host ( uid=500 gid=500 pid=2359 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    51.943] AUDIT: Thu Feb 28 10:18:17 2013: 2100: client 18 connected from local host ( uid=500 gid=500 pid=2357 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    51.991] AUDIT: Thu Feb 28 10:18:17 2013: 2100: client 18 disconnected
+[    52.132] AUDIT: Thu Feb 28 10:18:18 2013: 2100: client 16 disconnected
+[    52.151] AUDIT: Thu Feb 28 10:18:18 2013: 2100: client 17 disconnected
+[    52.159] AUDIT: Thu Feb 28 10:18:18 2013: 2100: client 16 connected from local host ( uid=500 gid=500 pid=2362 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    52.319] AUDIT: Thu Feb 28 10:18:18 2013: 2100: client 17 connected from local host ( uid=500 gid=500 pid=2355 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    52.576] AUDIT: Thu Feb 28 10:18:18 2013: 2100: client 18 connected from local host ( uid=500 gid=500 pid=2372 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.922] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 25 connected from local host ( uid=500 gid=500 pid=2383 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.922] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 24 connected from local host ( uid=500 gid=500 pid=2378 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.922] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2392 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.922] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 22 connected from local host ( uid=500 gid=500 pid=2382 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.923] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 21 connected from local host ( uid=500 gid=500 pid=2391 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.923] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 20 connected from local host ( uid=500 gid=500 pid=2384 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.923] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 19 connected from local host ( uid=500 gid=500 pid=2377 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.923] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 10 connected from local host ( uid=500 gid=500 pid=2388 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.923] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 26 connected from local host ( uid=500 gid=500 pid=2386 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.941] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 23 disconnected
+[    53.950] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 21 disconnected
+[    53.952] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2393 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    53.989] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 23 disconnected
+[    54.013] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 21 connected from local host ( uid=500 gid=500 pid=2329 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    54.100] AUDIT: Thu Feb 28 10:18:19 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2394 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    54.243] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 23 disconnected
+[    54.619] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 10 disconnected
+[    54.783] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 10 connected from local host ( uid=500 gid=500 pid=2395 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    54.788] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2384 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    54.809] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 10 disconnected
+[    54.810] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 23 disconnected
+[    54.869] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 17 disconnected
+[    55.053] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 10 connected from local host ( uid=500 gid=500 pid=2407 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    55.053] AUDIT: Thu Feb 28 10:18:20 2013: 2100: client 17 connected from local host ( uid=500 gid=500 pid=2406 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    55.115] AUDIT: Thu Feb 28 10:18:21 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2410 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    57.316] AUDIT: Thu Feb 28 10:18:23 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2413 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    57.320] AUDIT: Thu Feb 28 10:18:23 2013: 2100: client 27 disconnected
+[    57.321] AUDIT: Thu Feb 28 10:18:23 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2414 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    57.321] AUDIT: Thu Feb 28 10:18:23 2013: 2100: client 27 disconnected
+[    58.233] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2421 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    58.242] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 disconnected
+[    58.243] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2422 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    58.249] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 disconnected
+[    58.887] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2424 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    58.888] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 disconnected
+[    58.894] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2425 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    58.895] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 disconnected
+[    59.063] AUDIT: Thu Feb 28 10:18:24 2013: 2100: client 27 connected from local host ( uid=500 gid=500 pid=2360 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    59.260] AUDIT: Thu Feb 28 10:18:25 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=2332 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    59.268] AUDIT: Thu Feb 28 10:18:25 2013: 2100: client 28 disconnected
+[    60.064] AUDIT: Thu Feb 28 10:18:25 2013: 2100: client 29 connected from local host ( uid=500 gid=500 pid=2360 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    76.017] AUDIT: Thu Feb 28 10:18:41 2013: 2100: client 14 connected from local host ( uid=500 gid=500 pid=2444 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[    84.933] AUDIT: Thu Feb 28 10:18:50 2013: 2100: client 23 disconnected
+[   371.756] AUDIT: Thu Feb 28 10:23:37 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2386 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[   371.757] AUDIT: Thu Feb 28 10:23:37 2013: 2100: client 23 disconnected
+[  4177.035] AUDIT: Thu Feb 28 11:27:02 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2324 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[  4177.035] AUDIT: Thu Feb 28 11:27:02 2013: 2100: client 23 disconnected
+[ 10643.843] AUDIT: Thu Feb 28 13:14:49 2013: 2100: client 23 connected from local host ( uid=500 gid=500 pid=2332 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 10643.850] AUDIT: Thu Feb 28 13:14:49 2013: 2100: client 23 disconnected
+[ 12718.801] AUDIT: Thu Feb 28 13:49:24 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4019 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 12718.808] AUDIT: Thu Feb 28 13:49:24 2013: 2100: client 28 disconnected
+[ 12719.855] AUDIT: Thu Feb 28 13:49:25 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4013 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 12719.861] AUDIT: Thu Feb 28 13:49:25 2013: 2100: client 28 disconnected
+[ 12719.861] AUDIT: Thu Feb 28 13:49:25 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4013 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 12719.883] AUDIT: Thu Feb 28 13:49:25 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4030 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 12719.959] AUDIT: Thu Feb 28 13:49:25 2013: 2100: client 30 disconnected
+[ 12727.821] AUDIT: Thu Feb 28 13:49:33 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4013 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 12727.825] AUDIT: Thu Feb 28 13:49:33 2013: 2100: client 30 disconnected
+[ 12747.830] AUDIT: Thu Feb 28 13:49:53 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4062 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 12756.153] AUDIT: Thu Feb 28 13:50:02 2013: 2100: client 28 disconnected
+[ 12781.935] AUDIT: Thu Feb 28 13:50:27 2013: 2100: client 30 disconnected
+[ 13313.421] AUDIT: Thu Feb 28 13:59:19 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4159 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13313.443] AUDIT: Thu Feb 28 13:59:19 2013: 2100: client 28 disconnected
+[ 13313.915] AUDIT: Thu Feb 28 13:59:19 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4170 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13314.061] AUDIT: Thu Feb 28 13:59:19 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4153 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13314.067] AUDIT: Thu Feb 28 13:59:19 2013: 2100: client 30 disconnected
+[ 13314.067] AUDIT: Thu Feb 28 13:59:19 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4153 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13314.286] AUDIT: Thu Feb 28 13:59:20 2013: 2100: client 28 disconnected
+[ 13318.809] AUDIT: Thu Feb 28 13:59:24 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4153 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13318.811] AUDIT: Thu Feb 28 13:59:24 2013: 2100: client 28 disconnected
+[ 13333.493] AUDIT: Thu Feb 28 13:59:39 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4198 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13339.335] AUDIT: Thu Feb 28 13:59:45 2013: 2100: client 30 disconnected
+[ 13367.942] AUDIT: Thu Feb 28 14:00:13 2013: 2100: client 28 disconnected
+[ 13371.382] AUDIT: Thu Feb 28 14:00:17 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4211 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 13385.668] AUDIT: Thu Feb 28 14:00:31 2013: 2100: client 28 disconnected
+[ 14164.950] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4314 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 14164.956] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 28 disconnected
+[ 14164.990] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4308 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 14164.991] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4325 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 14165.000] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 28 disconnected
+[ 14165.000] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=4308 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 14165.034] AUDIT: Thu Feb 28 14:13:30 2013: 2100: client 30 disconnected
+[ 14167.226] AUDIT: Thu Feb 28 14:13:33 2013: 2100: client 30 connected from local host ( uid=500 gid=500 pid=4308 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 14167.226] AUDIT: Thu Feb 28 14:13:33 2013: 2100: client 30 disconnected
+[ 14772.957] AUDIT: Thu Feb 28 14:23:38 2013: 2100: client 28 disconnected
+[ 18324.641] AUDIT: Thu Feb 28 15:22:50 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 18324.643] AUDIT: Thu Feb 28 15:22:50 2013: 2100: client 28 disconnected
+[ 18331.050] AUDIT: Thu Feb 28 15:22:56 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=2312 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 18331.050] AUDIT: Thu Feb 28 15:22:56 2013: 2100: client 28 disconnected
+[ 18348.058] AUDIT: Thu Feb 28 15:23:13 2013: 2100: client 28 connected from local host ( uid=0 gid=0 pid=5222 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 18442.260] AUDIT: Thu Feb 28 15:24:48 2013: 2100: client 28 disconnected
+[ 18454.547] AUDIT: Thu Feb 28 15:25:00 2013: 2100: client 28 connected from local host ( uid=500 gid=500 pid=5271 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 262
+[ 18468.857] AUDIT: Thu Feb 28 15:25:14 2013: 2100: client 28 disconnected

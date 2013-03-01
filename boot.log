@@ -1,0 +1,66 @@
+%G		Welcome to [0;36mCentOS[0;39m 
+Starting udev: %G[60G[[0;32m  OK  [0;39m]
+Setting hostname centos1.localdomain:  [60G[[0;32m  OK  [0;39m]
+Setting up Logical Volume Management:   2 logical volume(s) in volume group "vg_livecd" now active
+[60G[[0;32m  OK  [0;39m]
+Checking filesystems
+_CentOS-6.2-i386: clean, 125680/1155072 files, 1393112/4597760 blocks
+/dev/sda1: clean, 46/128016 files, 68634/512000 blocks
+[60G[[0;32m  OK  [0;39m]
+Remounting root filesystem in read-write mode:  [60G[[0;32m  OK  [0;39m]
+Mounting local filesystems:  [60G[[0;32m  OK  [0;39m]
+Enabling local filesystem quotas:  [60G[[0;32m  OK  [0;39m]
+Enabling /etc/fstab swaps:  [60G[[0;32m  OK  [0;39m]
+Entering non-interactive startup
+Calling the system activity data collector (sadc): 
+Starting monitoring for VG vg_livecd:   2 logical volume(s) in volume group "vg_livecd" monitored
+[60G[[0;32m  OK  [0;39m]
+Starting VMware Tools services in the virtual machine:
+   Switching to guest configuration:[60G[[0;32m  OK  [0;39m]
+   Guest vmxnet fast network device:[60G[[0;31mFAILED[0;39m]
+   VM communication interface:[60G[[0;31mFAILED[0;39m]
+   VM communication interface socket family:[60G[[0;31mFAILED[0;39m]
+   Guest filesystem driver:[60G[[0;32m  OK  [0;39m]
+   Mounting HGFS shares:[60G[[0;31mFAILED[0;39m]
+   Blocking file system:[60G[[0;32m  OK  [0;39m]
+   Guest operating system daemon:[60G[[0;32m  OK  [0;39m]
+Starting auditd: [60G[[0;32m  OK  [0;39m]
+Starting portreserve: [60G[[0;32m  OK  [0;39m]
+Starting system logger: [60G[[0;32m  OK  [0;39m]
+Starting irqbalance: [60G[[0;32m  OK  [0;39m]
+Starting rpcbind: [60G[[0;32m  OK  [0;39m]
+Starting kdump:[60G[[0;31mFAILED[0;39m]
+Starting lldpad: [60G[[0;32m  OK  [0;39m]
+Starting VirtualBox kernel modules [60G[[0;32m  OK  [0;39m]
+Starting FCoE initiator service: [60G[[0;32m  OK  [0;39m]
+
+Starting system message bus: [60G[[0;32m  OK  [0;39m]
+Setting network parameters... [60G[[0;32m  OK  [0;39m]
+Starting NetworkManager daemon: [60G[[0;32m  OK  [0;39m]
+Starting Avahi daemon... [60G[[0;32m  OK  [0;39m]
+Starting NFS statd: [60G[[0;32m  OK  [0;39m]
+Initializing OpenCT smart card terminals:  [60G[[0;32m  OK  [0;39m]
+
+Starting RPC idmapd: [60G[[0;32m  OK  [0;39m]
+Starting cups: [60G[[0;32m  OK  [0;39m]
+Starting acpi daemon: [60G[[0;32m  OK  [0;39m]
+Starting HAL daemon: [60G[[0;32m  OK  [0;39m]
+Retrigger failed udev events[60G[[0;32m  OK  [0;39m]
+Starting PC/SC smart card daemon (pcscd): [60G[[0;32m  OK  [0;39m]
+Loading autofs4: [60G[[0;32m  OK  [0;39m]
+Starting automount: [60G[[0;32m  OK  [0;39m]
+Starting NFS services:  [60G[[0;32m  OK  [0;39m]
+Starting NFS quotas: [60G[[0;32m  OK  [0;39m]
+Starting NFS mountd: [60G[[0;32m  OK  [0;39m]
+Stopping RPC idmapd: [60G[[0;32m  OK  [0;39m]
+Starting RPC idmapd: [60G[[0;32m  OK  [0;39m]
+Starting NFS daemon: [60G[[0;32m  OK  [0;39m]
+Enabling Bluetooth devices:
+Starting sshd: [60G[[0;32m  OK  [0;39m]
+Starting xinetd: [60G[[0;32m  OK  [0;39m]
+   Starting Virtual Printing daemon:[71G done
+Starting vsftpd for vsftpd: [60G[[0;32m  OK  [0;39m]
+Starting sendmail: [60G[[0;32m  OK  [0;39m]
+Starting sm-client: [60G[[0;32m  OK  [0;39m]
+Starting crond: [60G[[0;32m  OK  [0;39m]
+Starting atd: [60G[[0;32m  OK  [0;39m]
